@@ -1,3 +1,5 @@
+import { LineChart } from "@/components/charts/LineChart"
+
 export default function Home() {
   return (
     <div className="govuk-width-container">
@@ -8,6 +10,7 @@ export default function Home() {
             <p className="govuk-body">
               A magical land showing data for planning data.
             </p>
+            <LineChart />
           </div>
           <div className="govuk-grid-column-one-third">
             <h2 className="govuk-heading-m">Side panel</h2>
